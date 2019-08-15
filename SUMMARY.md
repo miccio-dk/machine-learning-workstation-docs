@@ -16,7 +16,7 @@
 * [Python/Conda](usage/python-conda.md)
 * [Common packages](usage/common-packages.md)
 * [Tmux \(persistent sessions\)](usage/tmux-persistent-sessions.md)
-* [Check GPU usage](usage/check-gpu-usage.md)
+* [GPU usage](usage/gpu-usage.md)
 * [Run Jupyter remotely](usage/run-jupyter-remotely.md)
 
 ## Data transfer
