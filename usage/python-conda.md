@@ -58,3 +58,38 @@ pip install <PACKAGE_NAME>
 ```
 
 ## Other commands
+- Update conda:
+  ```sh
+  conda update conda
+  ```
+
+- Update a package in the environment:
+  ```sh
+  conda update <PACKAGE_NAME>
+  ```
+- Remove a package from the environment:
+  ```sh
+  conda remove <PACKAGE_NAME>
+  ```
+
+- List environments:
+  ```sh
+  conda info --envs
+  ```
+- Delete environment:
+  ```sh
+  conda env remove --name <ENV_NAME>
+  ```
+
+The following commands can be used to share environments.
+- Export environment into `.yml` file:
+  ```sh
+  conda env export > environment.yml
+  ```
+- Create environment from `.yml` file:
+  ```sh
+  conda env create -f environment.yml
+  ```
+
+For more commands, refer to [this page](https://conda.io/projects/conda/en/latest/user-guide/tasks/index.html).
+
