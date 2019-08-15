@@ -17,5 +17,5 @@ The command will ask for your AAU mail password and quit silently, but it will s
 
 In order to use the remote service locally, just point your browser to `localhost:LOCAL_PORT` and your service or application should appear.
 
-You can have multiple port-forwarding active at a given time, and they will all act independently. 
+You can have multiple port forwardings active at a given time, and they will all act independently. 
 Just make sure to use different local ports for different remote services.
