@@ -34,3 +34,5 @@ ssh ml_workstation
 ```
 
 Please note: first, you will be prompted to type in your AAU email password; the second password prompt is the one you set up on the workstation. 
+
+The next section will help you set up SSH keys to avoid typing your password all the time.
