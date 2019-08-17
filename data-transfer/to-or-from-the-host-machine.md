@@ -45,7 +45,7 @@ For more information, refer to this [tutorial](https://www.digitalocean.com/comm
 ### Browser-based file manager (`caddy`+`filebrowser`)
 It is also possible to remotely access the remote filesystem from a web interface.
 
-First off, you'll have to download `caddy`, which is a lightweight HTTP server. From the  workstation type:
+First off, you'll have to download caddy, which is a lightweight HTTP server. From the  workstation type:
 ```sh
 curl https://getcaddy.com | bash -s personal http.filemanager
 ```
@@ -60,6 +60,6 @@ In order to see it locally, you'll have to set up a port forwarding:
 ssh -N -f -L localhost:2015:localhost:2015 ml_workstation
 ```
 
-You can now access the content of the workstation remotely by pointing your browser to `localhost:2015`. 
+You can now access the content of the workstation remotely by pointing your browser to `https://localhost:2015`. 
 
-For more information, please refer to [this tutorial](https://www.thechiefmeat.com/guides/caddy-file-browser.html)
+For more information, please refer to [this tutorial](https://www.thechiefmeat.com/guides/caddy-file-browser.html).
