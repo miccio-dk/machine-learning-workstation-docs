@@ -13,7 +13,7 @@ These are low-level libraries providing high performances at the price of a stee
 Most often, it is desirable to use a high-level library which employs any of the above as backends.
 The most common ones are:
 - [`keras`](https://keras.io/): APIs implementing most common neural network building blocks such as dense layers, convolutional layers, LSTM units, batch normalization, and various optimizers (SGD, Adam, Adagrad...). Supports TensorFlow, Theano, and CNTK as backends.
-- [`fast.ai`](https://docs.fast.ai/): high-level platform based on PyThorch, for easily develop and train deep models using current best practices. The same developer team offers [online courses](https://course.fast.ai/) on deep learning.
+- [`fast.ai`](https://docs.fast.ai/): high-level platform based on PyThorch, for easily develop and train deep models using current best practices. The same developer team offers highly accessible [online courses](https://course.fast.ai/) on deep learning.
 
 
 ## Audio processing
