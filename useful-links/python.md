@@ -7,4 +7,4 @@
 
 
 ## Others
-- Quick pandas tutorial https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python
+- Quick pandas tutorial (with inline code to test) https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python
