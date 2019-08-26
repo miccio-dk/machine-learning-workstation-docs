@@ -8,3 +8,4 @@
 
 ## Others
 - Quick pandas tutorial (with inline code to test) https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python
+- Data science handbook https://notebooks.azure.com/jakevdp/projects/PythonDataScienceHandbook
