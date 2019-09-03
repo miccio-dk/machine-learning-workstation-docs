@@ -3,21 +3,17 @@ Tmux allows you to host multiple persistent terminal sessions on a single connec
 
 
 ## Setup and tutorial
-Connect to the workstation, and create a new session by typing:
-```sh
-tmux
-```
-
-Add a new tab (called "window" within tmux): <kbd>ctrl</kbd> + <kbd>C</kbd>
-
-Move to previous or next tab: <kbd>ctrl</kbd> + <kbd>P</kbd>, <kbd>ctrl</kbd> + <kbd>N</kbd>
-
-Quit (detach) tmux session: <kbd>ctrl</kbd> + <kbd>D</kbd>
-
-Once you re-connect to the workstation, you can attach to the existing session by typing:
-```sh
-tmux a
-```
+- Connect to the workstation, and create a new session by typing:
+  ```sh
+  tmux
+  ```
+- Add a new tab (called "window" within tmux): <kbd>ctrl</kbd> + <kbd>B</kbd>, <kbd>C</kbd>
+- Move to previous or next tab: <kbd>ctrl</kbd> + <kbd>B</kbd>, <kbd>P</kbd> and <kbd>ctrl</kbd> + <kbd>B</kbd>, <kbd>N</kbd>
+- Quit (detach) tmux session: <kbd>ctrl</kbd> + <kbd>B</kbd>, <kbd>D</kbd>
+- Once you re-connect to the workstation, you can attach to the existing session by typing:
+  ```sh
+  tmux a
+  ```
 
 For more information, consult the manual by typing `man tmux` or this [cheatsheet](https://gist.github.com/MohamedAlaa/2961058).
 
