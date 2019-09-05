@@ -31,3 +31,10 @@
 * [Python](useful-links/python.md)
 * [Machine Learning](useful-links/machine-learning.md)
 
+## Administration
+
+* [Introduction](administration/introduction.md)
+* [Managing users](administration/managing-users.md)
+* [System maintenance](administration/system-maintenance.md)
+* [Other tasks](administration/other-tasks.md)
+

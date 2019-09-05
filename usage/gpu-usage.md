@@ -1,30 +1,34 @@
 # GPU usage
+
 This page contains information on the high-performance GPUs mounted on the workstation.
 
 ## Available GPUs
+
 The workstation is equipped with three Nvidia TITAN X Pascal graphics cards, to be used for computing purposes, and one Nvidia GeForce GT 710 used as graphics adapter.
 
 ## Specify device
-From a python script, your can set the GPU(s) seen by the cuda drivers.
-Add the following lines:
-```py
+
+From a python script, your can set the GPU\(s\) seen by the cuda drivers. Add the following lines:
+
+```python
 import os
 
 os.environ['CUDA_VISIBLE_DEVICES']='<DEVICE_LIST>'
 ```
 
-Please note: `<DEVICE_LIST>` can be 0, 2, or 3.
-You can specify a different value for each of your scripts, and they will run on different GPUs.
-It is recommended to always manually set this variable, otherwise the script will end up reserving all the GPUs, even if they won't be used.
+Please note: `<DEVICE_LIST>` can be 0, 2, or 3. You can specify a different value for each of your scripts, and they will run on different GPUs. It is recommended to always manually set this variable, otherwise the script will end up reserving all the GPUs, even if they won't be used.
 
 ## Check usage
+
 In order to check which GPUs are currently in use, and which processes are using them, you can run the following command:
-```sh
+
+```bash
 nvidia-smi
 ```
 
 Here's an example output of the command above:
-```
+
+```text
 +-----------------------------------------------------------------------------+
 | NVIDIA-SMI 384.130                Driver Version: 384.130                   |
 |-------------------------------+----------------------+----------------------+
@@ -53,15 +57,17 @@ Here's an example output of the command above:
 +-----------------------------------------------------------------------------+
 ```
 
-In this case, only one GPU is in use (namely, the #3) which can be deducted from the `Memory-Usage` column.
-At the bottom, you can find the process identifier of what's using the GPU, in the `PID` column (6428).
+In this case, only one GPU is in use \(namely, the \#3\) which can be deducted from the `Memory-Usage` column. At the bottom, you can find the process identifier of what's using the GPU, in the `PID` column \(6428\).
 
 To obtain more information about the process:
-```sh
+
+```bash
 ps aux | grep <PID>
 ```
 
 If the process has been executed by you, you can attempt at terminating it:
-```sh
+
+```bash
 kill <PID>
 ```
+

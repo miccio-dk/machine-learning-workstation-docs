@@ -4,6 +4,5 @@ This space contains guides and other resources related to the ML workstation at 
 
 The following sections will guide you through connecting to the machine, using the GPUs, and exchange data. Moreover, a list of useful links is provided.
 
-For any question about the platform, please contact &lt;TODO&gt;.
-For questions, suggestions, and corrections related to the content of this documentation, refer to [this page]( https://github.com/miccio-dk/machine-learning-workstation-docs/issues).
+For any question about the platform, please contact &lt;TODO&gt;. For questions, suggestions, and corrections related to the content of this documentation, refer to [this page](https://github.com/miccio-dk/machine-learning-workstation-docs/issues).
 
