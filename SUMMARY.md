@@ -29,7 +29,9 @@
 
 * [Linux](useful-links/linux.md)
 * [Python](useful-links/python.md)
-* [Machine Learning](useful-links/machine-learning.md)
+* [Machine Learning](useful-links/machine-learning/README.md)
+  * [Data Generation](useful-links/machine-learning/data-generation.md)
+  * [Autoencoders](useful-links/machine-learning/autoencoders.md)
 
 ## Administration
 
