@@ -30,6 +30,7 @@
 * [Linux](useful-links/linux.md)
 * [Python](useful-links/python.md)
 * [Machine Learning](useful-links/machine-learning/README.md)
+  * [Unsupervised Learning](useful-links/machine-learning/unsupervised-learning.md)
   * [Data Generation](useful-links/machine-learning/data-generation.md)
   * [Autoencoders](useful-links/machine-learning/autoencoders.md)
 * [Evaluating Neural Networks](useful-links/evaluating-neural-networks.md)
