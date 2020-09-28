@@ -6,3 +6,5 @@
 * [Tutorial on Music Generation with RecNNets ](https://medium.com/datadriveninvestor/music-generation-using-deep-learning-85010fb982e2)
 * [One Hot Encoding with](https://machinelearningmastery.com/how-to-one-hot-encode-sequence-data-in-python/) Keras & Scikit
 
+
+
