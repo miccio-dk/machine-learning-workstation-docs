@@ -6,6 +6,8 @@
 * [A Gentle introduction to Autoencoders ](https://medium.com/edureka/autoencoders-tutorial-cfdcebdefe37)[Using AE to remove noise](https://medium.com/activating-robotic-minds/how-to-reduce-image-noises-by-autoencoder-65d5e6de543)
 * [Convolutional AE and more](https://medium.com/activating-robotic-minds/how-to-reduce-image-noises-by-autoencoder-65d5e6de543)
 * [More advanced topics with AE](https://bit.ly/2PrmbAG)
+* [Introduction to sparce AE and PCA vs AE comparison](https://www.jeremyjordan.me/autoencoders/)
+* [Training VAEs](https://becominghuman.ai/variational-autoencoders-for-new-fruits-with-keras-and-pytorch-6d0cfc4eeabd)
 
 #### Sound related
 

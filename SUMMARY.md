@@ -30,6 +30,7 @@
 * [Linux](useful-links/linux.md)
 * [Python](useful-links/python.md)
 * [Machine Learning](useful-links/machine-learning/README.md)
+  * [Classifiers](useful-links/machine-learning/classifiers.md)
   * [Natural Language Processing](useful-links/machine-learning/natural-language-processing.md)
   * [Unsupervised Learning](useful-links/machine-learning/unsupervised-learning.md)
   * [Data Generation](useful-links/machine-learning/data-generation.md)
