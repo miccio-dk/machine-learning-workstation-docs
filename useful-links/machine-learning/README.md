@@ -14,6 +14,7 @@
 * [Understanding the Vanishing Gradient problem \(video \)](%20https://youtu.be/SKMpmAOUa2Q)
 * [Transfer Learning Tutorial](https://towardsdatascience.com/a-comprehensive-hands-on-guide-to-transfer-learning-with-real-world-applications-in-deep-learning-212bf3b2f27a)
 * [Transfer Learning Tutorial \(Simple with Example\)](https://towardsdatascience.com/keras-transfer-learning-for-beginners-6c9b8b7143e)
+* [Understanding Loss Functions](https://medium.com/deep-learning-demystified/loss-functions-explained-3098e8ff2b27)
 
 
 
