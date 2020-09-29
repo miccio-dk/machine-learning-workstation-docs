@@ -56,9 +56,10 @@ conda install <PACKAGE_NAME>
 
 You can search for python packages on [this repository](https://anaconda.org/), which also contains detailed instruction on how to install most packages.
 
-Some packages may simply not exist in conda; as a last resort, you can install them by running \(from within the conda environment\):
+Some packages may simply not exist in conda; as a last resort, you can install pip inside your environment and then use pip from within the conda environment:
 
 ```bash
+conda install pip
 pip install <PACKAGE_NAME>
 ```
 
