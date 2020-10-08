@@ -38,13 +38,7 @@ To verify the above steps and connect to the workstation, open a new terminal an
 ssh ml_workstation
 ```
 
-After running the command, you will be prompted to type in your AAU password.
-Afterwards, you will have to confirm your login attempt using the Microsoft Authenticator app, by clicking "Approve" on the app notification. 
-You can set it up by following [these instructions](https://www.en.its.aau.dk/instructions/Username+and+password/Azure+MFA/).
-Once you authorize using the app, another password prompt will appear, asking you for the password received by email when setting up your account.
-If no default password was sent to you, this prompt will allow you to create one.
+After running the command, you will be prompted to type in your AAU password. Afterwards, you will have to confirm your login attempt using the Microsoft Authenticator app, by clicking "Approve" on the app notification. You can set it up by following [these instructions](https://www.en.its.aau.dk/instructions/Username+and+password/Azure+MFA/). Once you authorize using the app, another password prompt will appear, asking you for the password received by email when setting up your account. If no default password was sent to you, this prompt will allow you to create one.
 
-The next section will help you set up SSH keys to avoid typing this last password all the time.
-If you also want to avoid using the 2-factor authentication through the Microsoft Authenticator app, check the section about [VPN connection](./connection-through-vpn.md).
-Refer to [persistent sessions](../usage/tmux-persistent-sessions.md) for multiple persisten terminals on a single session. 
+The next section will help you set up SSH keys to avoid typing this last password all the time. If you also want to avoid using the 2-factor authentication through the Microsoft Authenticator app, check the section about [VPN connection](connection-through-vpn.md). Refer to [persistent sessions](../usage/tmux-persistent-sessions.md) for multiple persisten terminals on a single session.
 
