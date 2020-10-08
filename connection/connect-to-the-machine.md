@@ -1,8 +1,8 @@
 # Connect to the machine
 
-The workstation can be accessed remotely through SSH. In order to do so, you have to first connect to an AAU Gateway machine, and then connect to the workstation. The following steps will help you set up shortcuts what will
+The workstation can be accessed remotely through SSH. In order to do so, you have to first connect to an AAU Gateway machine, and then connect to the workstation. The following steps will help you set up an automatic shortcut.
 
-## Setup login configuration
+## Setup connection configuration
 
 Navigate in the `.ssh` directory in your local machine:
 
@@ -38,7 +38,13 @@ To verify the above steps and connect to the workstation, open a new terminal an
 ssh ml_workstation
 ```
 
-Please note: first, you will be prompted to type in your AAU email password; the second password prompt is the one you set up on the workstation.
+After running the command, you will be prompted to type in your AAU password.
+Afterwards, you will have to confirm your login attempt using the Microsoft Authenticator app, by clicking "Approve" on the app notification. 
+You can set it up by following [these instructions](https://www.en.its.aau.dk/instructions/Username+and+password/Azure+MFA/).
 
-Refer to [persistent sessions](../usage/tmux-persistent-sessions.md) for multiple persisten terminals on a single session. The next section will help you set up SSH keys to avoid typing your password all the time.
+Once you authorize using the app, another password prompt will appear, asking you for the password received by email when setting up your account.
+If no default password was sent to you, this prompt will allow you to create one.
+The next section will help you set up SSH keys to avoid typing this last password all the time.
+
+Refer to [persistent sessions](../usage/tmux-persistent-sessions.md) for multiple persisten terminals on a single session. 
 
