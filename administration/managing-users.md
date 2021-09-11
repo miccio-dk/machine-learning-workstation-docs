@@ -1,6 +1,6 @@
 # Managing users
 
-This page covers common user management tasks. For more information, please refer to the follwing [tutorial](https://www.computerhope.com/unix/adduser.htm).
+This page covers common user management tasks. For more information, please refer to the following [tutorial](https://www.computerhope.com/unix/adduser.htm).
 
 ## List all users
 
@@ -10,7 +10,7 @@ The following command can be used to list all existing users:
 less /etc/passwd
 ```
 
-The first column of the output represent the users. Please note that this list also contains special users which are used by system services and processes.
+The first column of the output represents the users. Please note that this list also contains special users which are used by system services and processes.
 
 ## List connected users
 
@@ -30,7 +30,7 @@ The following command can be used to create a user named `<USER>`:
 sudo adduser <USER>
 ```
 
-Upon executing the command, you will be prompted to enter a few informations:
+Upon executing the command, you will be asked to enter a few pieces of information:
 
 * User password \(this is only going to be temporary\)
 * User full name
@@ -56,7 +56,7 @@ sudo passwd --expire <USER>
 
 Administrative \(sudo\) rights in Linux are necessary to install new software, update the system, edit system directories, and handling some of the internal services.
 
-In order for existing users to be granted these priviledges, they must be part of the `sudo` group, which can be done by:
+In order for existing users to be granted these privileges, they must be part of the `sudo` group, which can be done by:
 
 ```text
 sudo usermod -a -G sudo <USER>
